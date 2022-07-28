@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>H:\SteamLibrary\steamapps\common\ChilloutVR\ChilloutVR_Data\Managed\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="MelonLoader">
+        <HintPath>H:\SteamLibrary\steamapps\common\ChilloutVR\MelonLoader\MelonLoader.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Net.Http" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <COMReference Include="mscorlib">
+        <Guid>{BED7F4EA-1A96-11D2-8F08-00A0C9A6186D}</Guid>
+        <VersionMajor>2</VersionMajor>
+        <VersionMinor>4</VersionMinor>
+        <Lcid>0</Lcid>
+        <WrapperTool>tlbimp</WrapperTool>
+        <Isolated>False</Isolated>
+        <EmbedInteropTypes>True</EmbedInteropTypes>
+      </COMReference>
+    </ItemGroup>
+
+</Project>
