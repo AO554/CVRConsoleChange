@@ -23,5 +23,5 @@ using MelonLoader;
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
 //Author Information & Game Information
-[assembly: MelonInfo(typeof(CVRConsoleChange.Main), "CVRConsoleChange", "1.0.0", "AO554")]
+[assembly: MelonInfo(typeof(CVRConsoleChange.Main), "CVRConsoleChange", "1.0.1", "AO554")]
 [assembly: MelonGame(null, null)]

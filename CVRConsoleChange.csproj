@@ -7,6 +7,10 @@
         <LangVersion>10</LangVersion>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DefineConstants>TRACE;</DefineConstants>
+    </PropertyGroup>
+
     <ItemGroup>
       <Reference Include="Assembly-CSharp">
         <HintPath>H:\SteamLibrary\steamapps\common\ChilloutVR\ChilloutVR_Data\Managed\Assembly-CSharp.dll</HintPath>
