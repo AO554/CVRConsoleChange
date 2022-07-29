@@ -6,3 +6,5 @@ Version: ``1.0.0``
 
 - Settings are configurable in your MelonPreferences
 - Togglable
+
+Should mention there is a Universal Version to which is much better than this Project [Found Here!](https://github.com/MintLily/ConsoleTitleHider)
